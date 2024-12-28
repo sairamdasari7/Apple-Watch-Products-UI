@@ -1,0 +1,28 @@
+.size-selection {
+    text-align: center;
+  }
+  
+  .size-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .size-option {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .size-option.selected {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+  .size-option:hover {
+    background-color: #e6e6e6;
+  }
+  

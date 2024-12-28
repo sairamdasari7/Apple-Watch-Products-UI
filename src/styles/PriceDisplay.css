@@ -1,0 +1,11 @@
+.price-display {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .price-display p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  

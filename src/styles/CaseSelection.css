@@ -1,0 +1,30 @@
+.case-selection {
+    text-align: center;
+  }
+  
+  .case-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+  }
+  
+  .case-option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .case-option img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+  .case-option.selected {
+    border-color: #000;
+    transform: scale(1.1);
+  }
+  
